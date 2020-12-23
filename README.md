@@ -5,7 +5,7 @@ This is a web server, written in java,
 which is easy to use with an simple GUI.
 The webserver whithout GUI is by SSaurel,
 from his tutorial, but I have modifyed 
-this code mouch.
+this code much.
 
 The Java version, which is compiled,
 is the version 14, but you can compile
