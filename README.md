@@ -2,8 +2,8 @@
 An easy to use Webserver with GUI
 
 This is a web server, written in java,
-which is easy to use with an simple GUI.
-The webserver whithout GUI is by SSaurel,
+which has an easy to use GUI.
+The webserver whithout GUI and config files is by SSaurel,
 from his tutorial, but I have modifyed 
 this code much.
 
