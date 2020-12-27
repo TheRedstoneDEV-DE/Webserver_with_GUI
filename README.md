@@ -12,13 +12,14 @@ is the version 14, but you can compile
 the sourcecode yourself.
 
 # Sourcecompiling and running
-The sourches for the code can be found into the "sourches.zip", 
-it have to be extracted into your eclipse workspace and needs 
-to be opened as project with eclipse, to comile it go to export as runnable jar file.
+1. Download the sources.zip and unpack it into a folder.
+2. run "javac Webserver.java ServerMain.java".
+3. Ceate a file named manifest.txt and write ths into it:
 
-Open it like so:
-New > Java Project
+Main-Class: ServerMain
+Clath-Path: .
 
-Note:
-The project name have to be the same as the name of the folder!
-If this is not so, it wouldn't work!
+4. Now you can open your commandline and run:
+"jar cfm <the name of the Jar file>.jar manifest.txt *.class"
+ 
+ 5. You can now execute it with java -jar <the name of the Jar file>.jar.
