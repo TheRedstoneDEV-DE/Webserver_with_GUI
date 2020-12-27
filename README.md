@@ -14,12 +14,11 @@ the sourcecode yourself.
 # Sourcecompiling and running
 1. Download the sources.zip and unpack it into a folder.
 2. run "javac Webserver.java ServerMain.java".
-3. Download the manifest.txt and put it in the same folder as the classes.
 
-4. Now you can open your commandline and run:
+3. Now you can open your commandline and run:
 
-"jar cfm <the name of the Jar file>.jar manifest.txt *.class"
+"jar cfm FILENAME.jar manifest.txt *.class"
  
- 5. You can now execute it with: 
+ 4. You can now execute it with: 
  
- java -jar <the name of the Jar file>.jar.
+ java -jar FILENAME.jar.
