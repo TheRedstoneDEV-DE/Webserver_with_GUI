@@ -12,13 +12,13 @@ is the version 14, but you can compile
 the sourcecode yourself.
 
 # Sourcecompiling and running
-1. Download the sources.zip and unpack it into a folder.
-2. run "javac Webserver.java ServerMain.java".
+1. Download all files into the folder "src" and move it into one folder.
+
+2. run:
+>javac Webserver.java ServerMain.java
 
 3. Now you can open your commandline and run:
-
-"jar cfm FILENAME.jar manifest.txt *.class"
+>jar cfm FILENAME.jar manifest.txt *.class
  
  4. You can now execute it with: 
- 
- java -jar FILENAME.jar.
+>java -jar FILENAME.jar
