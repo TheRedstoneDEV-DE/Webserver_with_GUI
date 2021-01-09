@@ -54,6 +54,7 @@ public class ServerMain {
 		frame.setSize(241, 134);
 		// Wir lassen unseren Frame anzeigen
 		frame.setVisible(true);
+		frame.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
 		buttonon.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
