@@ -12,13 +12,7 @@ public class ServerMain {
 	public static JLabel label = new JLabel("Webserever is stopped.");
 
 	public static void main(String[] args) {
-		/*
-		 * Erzeugung eines neuen Frames mit dem Titel "Beispiel JFrame "
-		 */
 		JFrame frame = new JFrame("Webserver start window");
-		/*
-		 * Wir setzen die Breite und die Höhe unseres Fensters auf 200 Pixel
-		 */
 		JButton buttonon = new JButton("Start Server!");
 		JButton buttonoff = new JButton("Stop Server!");
 		JButton buttonclose = new JButton("Close");
