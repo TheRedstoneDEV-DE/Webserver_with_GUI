@@ -12,7 +12,7 @@ is the version 14, but you can compile
 the sourcecode yourself.
 
 # Sourcecompiling and running
-1. Download all files into the folder "src" and move it into one folder.
+1. Download all files which are into the folder "src" and move it all into the same folder.
 
 2. run:
 >javac Webserver.java ServerMain.java
